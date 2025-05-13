@@ -1,0 +1,19 @@
+<!-- This launch file loads rosbags and makes an octomap file -->
+
+<launch>
+
+<param name="/use_sim_time" value="true"/>
+
+<!-- paths to the rosbag files -->
+<arg name="path" default="/home/a/4dradar_slam_ws/src/4DRadarSLAM/"/>
+
+<arg name = "file_0" default = "bag/2025-03-08.bag"/>
+<arg name = "file_1" default = "bag/2025-03-09.bag"/>
+
+<!-- Plays the dataset. WARNING: changing 'rate' will cause interactions with the demo.  -->
+<!--  /radar_pcl /radar_trk -->
+<node pkg="rosbag" type="play" name="player"
+    args = "$(arg path)$(arg file_1)">
+</node>
+
+</launch>

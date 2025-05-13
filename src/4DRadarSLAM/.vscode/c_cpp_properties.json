@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/df/4dradar_slam/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/df/4dradar_slam/src/fast_apdgicp/include/**",
+        "/home/df/4dradar_slam/src/ndt_omp/include/**",
+        "/home/df/4dradar_slam/src/4DRadarSLAM/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

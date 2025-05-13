@@ -1,0 +1,5 @@
+<launch>
+
+    <node name="vectornav_pkg" pkg="vectornav" type="vectornav_pkg" output="screen"/>
+    
+</launch>
